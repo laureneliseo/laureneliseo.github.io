@@ -7,6 +7,7 @@ export default class ingredientbeta extends Phaser.Scene {
   }
 
   init (data) {
+    
     this.rollScore = data.rollScore;
     this.ingredientScore = data.ingredientScore;
     this.mixingScore = data.mixingScore;
